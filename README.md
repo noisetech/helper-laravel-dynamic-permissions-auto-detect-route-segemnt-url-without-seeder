@@ -33,7 +33,6 @@ kemudian buka terminal jalankan composer  dump-autoload
 untuk menggunakan pengecekan button yang terdapat params ataupun tidak bisa sebagai berikut
 
 contoh yang button ada params nya (bisa lebih dari satu params):
-
      {!! getActionButtons([
     [
     'action' => 'edit',
