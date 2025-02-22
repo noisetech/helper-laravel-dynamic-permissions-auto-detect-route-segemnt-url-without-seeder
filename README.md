@@ -32,6 +32,7 @@ kemudian buka terminal jalankan composer  dump-autoload
 untuk menggunakan pengecekan button yang terdapat params ataupun tidak bisa sebagai berikut
 
 contoh yang button ada params nya (bisa lebih dari satu params):
+
      {!! getActionButtons([
     [
     'action' => 'edit',
@@ -53,6 +54,7 @@ contoh yang button ada params nya (bisa lebih dari satu params):
     ]) !!}
 
 contoh yang button tidak ada params:
+ 
  {!! getActionButtons([
     [
     'action' => 'tambah',
