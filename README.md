@@ -15,16 +15,17 @@ lalu silahkan copas koding yang di file tersebut.
 
 
 edit bagian composer.json
+
  "autoload": {
-        "psr-4": {
-            "App\\": "app/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "psr-4": {
+                "App\\": "app/",
+                "Database\\Factories\\": "database/factories/",
+                "Database\\Seeders\\": "database/seeders/"
+            },
+            "files": [
+                "app/Helpers/helpers.php"
+             ]
         },
-        "files": [
-            "app/Helpers/helpers.php"
-         ]
-    },
 
 
 kemudian buka terminal jalankan composer  dump-autoload
