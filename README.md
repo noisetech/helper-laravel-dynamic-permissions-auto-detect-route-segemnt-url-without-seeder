@@ -53,11 +53,11 @@ contoh yang button ada params nya (bisa lebih dari satu params):
     'id' => $p->id,
     ]) !!}
 
-contoh yang button tidak ada params:
+    contoh yang button tidak ada params:
  
- {!! getActionButtons([
+     {!! getActionButtons([
     [
     'action' => 'tambah',
     'class' => 'badge bg-primary text-white'
     ]
- ]) !!}
+    ])!!}
